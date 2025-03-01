@@ -8,6 +8,10 @@ class MokaController extends Controller
 {
     public function home(){
         //
-        return view('inz');
+        return view('Home');
+    }
+    public function login(){
+        //
+        return view('login');
     }
 }
